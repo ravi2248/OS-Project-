@@ -23,7 +23,7 @@ int main()
 	        scanf("%d", &maxres[i]);
     	}
  
-   	printf("\nEnter Allocated Resource Table:\n");
+   	printf("\nEnter Allocated (instances) Resource Table:\n");
     	for (i = 0; i < processes; i++) 
 	{
 	        for(j = 0; j < resources; j++) 
